@@ -1,0 +1,41 @@
+.container {
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+.grid {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    opacity: 0.9;
+}
+
+.parameters {
+    position: absolute;
+    padding: 10px;
+    background-color: bisque;
+    opacity: 0.5;
+    border-radius: 10px;
+    top: 250px;
+}
+
+.scoreContainer,
+.timeContainer {
+    position: absolute;
+    padding: 10px;
+    background-color: bisque;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.timeContainer {
+    top: 120px;
+}
+
+p,
+h1 {
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+}
